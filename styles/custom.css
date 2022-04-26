@@ -19,3 +19,54 @@ p.venue {
   font-weight: bold;
   color: var(--accent);
 }
+
+.shower {
+  --accent: #3a2d72;
+}
+
+.shower .caption h1 {
+  line-height: 1.2;
+}
+.shower .caption p {
+  margin-top: .5em;
+}
+p.venue {
+  font-style: italic;
+}
+
+.text.slide {
+  padding-top: 3em;
+}
+.text.slide > p {
+  color: var(--accent);
+  font-weight: bold;
+  font-size: 1.3em;
+  line-height: 1.33;
+}
+.text.slide p {
+  font-size: 1.3em;
+  line-height: 1.4;
+}
+
+.slide.cover h2 {
+  text-shadow: -1.5px -1.5px 0 white,
+                1.5px -1.5px 0 white,
+               -1.5px  1.5px 0 white,
+                1.5px  1.5px 0 white;
+}
+
+.slide figure.cover.width.margin > :first-child {
+  width: 88%
+}
+.slide h2 + figure.cover.margin > :first-child {
+  margin-top: 2em;
+}
+.slide h2 + figure.cover.height.margin > :first-child,
+.slide ul + figure.cover.height.margin > :first-child {
+  height: 75%;
+}
+
+.faded {
+  opacity: .2;
+  filter: contrast(1.1);
+}
