@@ -44,6 +44,19 @@
     </ul>
   </div>
 
+  <div class="dark cover slide" id="walled-gardens">
+    <h2>
+      Within a landscape of silos,<br>
+      you have to move either data or people.
+    </h2>
+    <figure class="cover width">
+      <img src="images/walled-gardens.jpg">
+      <figcaption>
+        © David Simonds
+      </figcaption>
+    </figure>
+  </div>
+
   <div class="toc slide" id="toc-decentralized-data">
     <ul>
       <li><a href="#toc-big-data">Big Data thinking</a></li>
@@ -159,11 +172,254 @@
     </ul>
   </div>
 
+  <div class="slide" id="solid">
+    <h2>
+      Solid enables interoperable data vaults<br>
+      through standardization.
+    </h2>
+    <ul>
+      <li>
+        Solid builds on existing Web standards.
+      </li>
+      <li class="next">
+        The standards cover:
+        <ul>
+          <li>data pods</li>
+          <li>applications or services</li>
+          <li>identity (authentication and authorization)</li>
+        </ul>
+      </li>
+      <li class="next">
+        Solid specifies the interactions<br>
+        between data, apps, and identities.
+      </li>
+    </ul>
+    <figure class="cover height">
+      <img class="faded" src="images/solid-logo.svg" alt="[the Solid logo]" />
+    </figure>
+  </div>
+
+  <div class="slide" id="apps-data-identity">
+    <figure class="cover height">
+      <img src="images/apps-data-identity.png" alt="" />
+    </figure>
+  </div>
+
   <div class="toc slide" id="toc-standards-commmunity">
     <ul>
       <li><a href="#toc-big-data">Big Data thinking</a></li>
       <li><a href="#toc-decentralized-data">Data empowering people</a></li>
       <li class="current"><a href="#toc-standards-commmunity">Standards &amp; Community</a></li>
+    </ul>
+  </div>
+
+  <div class="slide" id="standards">
+    <h2>
+      Client–server communication is governed<br>
+      by the Solid specifications.
+    </h2>
+    <ul>
+      <li>
+        The specifications are a set<br>
+        of <a href="https://solidproject.org/TR/protocol">multiple documents</a>.
+      </li>
+      <li class="next">
+        They essentially demand compliance<br>
+        with a couple of existing standards:
+        <ul>
+          <li>HyperText Transfer Protocol (HTTP)</li>
+          <li>Linked Data Platform (LDP)</li>
+          <li>Linked Data Notifications (LDN)</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="slide" id="past">
+    <h2>
+      Several open-source implementations<br>
+      of servers, apps, and libraries exist.
+    </h2>
+    <ul>
+      <li>
+        <a href="https://github.com/CommunitySolidServer/CommunitySolidServer">server</a>
+        <ul class="next">
+          <li>Use a public instance or host your own.</li>
+        </ul>
+      </li>
+      <li>
+        apps
+        <ul class="next inline">
+          <li><a href="https://github.com/SolidOS/mashlib">data browser</a></li>
+          <li>contacts</li>
+          <li>photos</li>
+          <li>meeting organizer</li>
+          <li>…</li>
+        </ul>
+      </li>
+      <li>
+        libraries
+        <ul class="next inline">
+          <li><a href="https://github.com/inrupt/solid-client-authn-js">authentication</a></li>
+          <li><a href="https://github.com/rdfjs/N3.js">data processing</a></li>
+          <li>…</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+    <div class="slide" id="server">
+    <h2>
+      A Solid server acts as a data pod<br>
+      that stores and guards your data.
+    </h2>
+    <ul>
+      <li class="next">
+       It is a regular Web server
+        <ul>
+          <li>…with support for access control.</li>
+          <li>…with support for Linked Data.</li>
+        </ul>
+      </li>
+      <li class="next">
+       Its interface is application-agnostic.
+        <ul>
+          <li>Build <em>any</em> application, like on the Web.</li>
+          <li>Application-specific logic resides in clients.</li>
+        </ul>
+      </li>
+      <li class="next">
+        A Solid pod is essentially a website with data.
+        <ul>
+          <li>Its data is compatible with any Solid app.</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="slide" id="solid-servers">
+    <h2>
+      Solid servers separate apps from data<br>
+      by implementing a set of specifications.
+    </h2>
+    <ul>
+      <li>
+        Think of a data pod as a USB stick.
+        <ul>
+          <li>connector shape</li>
+          <li>electrical signals</li>
+          <li>file system format</li>
+          <li>…</li>
+        </ul>
+      </li>
+      <li class="next">
+        The
+        <a href="https://github.com/solid/specification/">Solid specifications</a>
+        ensure that<br>
+        data can be accessed by any Solid app<br>
+        regardless of the server that stores it.
+      </li>
+    </ul>
+  </div>
+
+  <div class="slide" id="variations">
+    <h2>
+      All Solid servers must implement the spec,<br>
+      yet that doesn’t make them all the same.
+    </h2>
+    <ul>
+      <li>
+        All USB sticks behave the same,
+        but variations exist.
+        <ul>
+          <li>different storage capacity</li>
+          <li>different sizes and colors</li>
+          <li>different security mechanisms</li>
+          <li>…</li>
+        </ul>
+      </li>
+      <li class="next">
+        Similarly,
+        there are many ways to implement<br>
+        a compatible server of Solid data pods.
+        <ul>
+          <li>Use cases inform the need for pods.</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="slide" id="css">
+    <h2>
+      The Community Solid Server should<br>
+      grow along with developers’ needs.
+    </h2>
+    <ul>
+      <li class="next">
+        100% compatible with the specifications
+        <ul>
+          <li>anticipate envisaged spec evolutions</li>
+        </ul>
+      </li>
+      <li class="next">
+        helpful companion for app developers
+        <ul>
+          <li>lightweight and easy to configure</li>
+        </ul>
+      </li>
+      <li class="next">
+        support extension and experimentation
+        <ul>
+          <li>testing bed for the future of Solid</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+    <div class="slide" id="node">
+    <h2>
+      The Community Server is implemented<br>
+      in TypeScript for Node.js.
+    </h2>
+    <ul>
+      <li class="next">
+        App developers have a JavaScript-oriented setup,<br>
+        so running the server will feel familiar.
+      </li>
+      <li class="next">
+        Common code can be run on either<br>
+        or both the client or the server.
+      </li>
+      <li class="next">
+        Typings foster collaboration<br>
+        by making contracts explicit.
+      </li>
+    </ul>
+  </div>
+
+  <div class="slide" id="architecture">
+    <h2>
+      The architecture is designed<br>
+      to realize a modular design.
+    </h2>
+    <ul>
+      <li class="next">
+        It focuses on the core task of a Solid server:<br>
+        authenticated <a href="https://www.w3.org/TR/ldp/">Linked Data Platform</a> requests.
+      </li>
+      <li class="next">
+        We created an <a href="https://github.com/solid/solid-architecture/blob/master/server/request-flow.md">HTTP request flow</a> with<br>
+        processing steps and data elements.
+        <ul>
+          <li>This inspired the object-oriented design.</li>
+        </ul>
+      </li>
+      <li class="next">
+        We emphasize the <em>single-responsibility principle</em>.
+        <ul>
+          <li>Plugging components in and out becomes routine.</li>
+        </ul>
+      </li>
     </ul>
   </div>
 

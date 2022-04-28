@@ -54,6 +54,11 @@ p.venue {
                -1.5px  1.5px 0 white,
                 1.5px  1.5px 0 white;
 }
+.dark.slide.cover h2 {
+  color: var(--accent);
+  box-shadow: 0 0 100px white;
+  background-color: rgba(255, 255, 255, .5);
+}
 
 .slide figure.cover.width.margin > :first-child {
   width: 88%
