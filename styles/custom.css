@@ -35,17 +35,13 @@ p.venue {
 }
 
 .text.slide {
-  padding-top: 3em;
+  padding-top: 1em;
 }
 .text.slide > p {
   color: var(--accent);
   font-weight: bold;
-  font-size: 1.3em;
+  font-size: 2em;
   line-height: 1.33;
-}
-.text.slide p {
-  font-size: 1.3em;
-  line-height: 1.4;
 }
 
 .slide.cover h2 {
