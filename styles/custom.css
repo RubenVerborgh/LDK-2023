@@ -75,3 +75,14 @@ p.venue {
 .grayscale img {
   filter: grayscale(100%);
 }
+
+.logo.slide img {
+  width: 66% !important;
+}
+#inrupt img {
+  width: 50% !important;
+}
+
+#solidlab {
+  background: #292F4D;
+}
