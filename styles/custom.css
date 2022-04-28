@@ -75,3 +75,7 @@ p.venue {
   opacity: .2;
   filter: contrast(1.1);
 }
+
+.grayscale img {
+  filter: grayscale(100%);
+}
