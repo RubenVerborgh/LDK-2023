@@ -12,6 +12,16 @@ p.venue {
   font-style: italic;
 }
 
+.title.slide h2 {
+  margin: 30px 0;
+  font-size: 4.7em;
+  line-height: 0.9;
+  font-style: all-caps;
+}
+.title.slide h2:first-line {
+  letter-spacing: .02em;
+}
+
 .text.slide p {
   font-size: 1.2em;
   line-height: 1.5;
